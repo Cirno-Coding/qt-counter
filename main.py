@@ -23,7 +23,7 @@ class Example(QWidget):
 
     def click(self):
         self.count += 5
-        self.lbl.setText(f"{int(self.count) + 1}")
+        self.lbl.setText(f"{int(self.count)}")
 
 
 if __name__ == "__main__":
