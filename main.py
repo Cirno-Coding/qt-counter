@@ -22,7 +22,7 @@ class Example(QWidget):
         self.btn.clicked.connect(self.click)
 
     def click(self):
-        self.count += 1
+        self.count += 5
         self.lbl.setText(f"{int(self.count) + 1}")
 
 
